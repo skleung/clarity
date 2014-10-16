@@ -54,10 +54,10 @@ ul {
 
 .login.page .welcome {
   height: 100px;
-  margin-top: -100px;
+  margin-top: -80px;
   position: absolute;
   text-align: center;
-  top: 40%;
+  top: 25%;
   width: 100%;
 }
 
@@ -66,6 +66,7 @@ ul {
   border: none;
   outline: none;
   text-align: center;
+  margin-bottom: ;
 }
 
 .login.page .title {

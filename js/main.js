@@ -2,6 +2,7 @@ var $window = $(window);
 var $loginPage = $('.login.page'); // The login page
 var $mainPage = $('.main.page'); // The chatroom page
 var $enter = $('.enter');
+var $video = $('#video');
 
 function showMainPage() {
   $loginPage.fadeOut();
@@ -21,3 +22,8 @@ $enter.click(function() {
 $window.on('keydown', function() {
   showMainPage();
 })
+
+$video.click(function () {
+  event.preventDefault();
+})
+
