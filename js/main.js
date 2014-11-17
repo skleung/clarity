@@ -23,7 +23,11 @@ $window.on('keydown', function() {
   showMainPage();
 })
 
-$video.click(function () {
-  event.preventDefault();
-})
+$(function() {
+    // var BV = new $.BigVideo();
+    // BV.init();
+    // BV.show('//player.vimeo.com/video/109173247');
+});
+
+
 
